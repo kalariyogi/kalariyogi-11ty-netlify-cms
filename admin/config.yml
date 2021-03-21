@@ -22,8 +22,8 @@ collections:
     label : "Pages"
     files:
       - label: "Home Page"
-        name: "home"
-        file: "_site/index.html"
+        name: "index"
+        file: "index.njk"
         fields:
           - { label: "Hero Text", name: "heroText", widget: "string" }
           - { label: "Hero Description", name: "heroDescription", widget: "string" }
