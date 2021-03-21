@@ -3,4 +3,12 @@ layout: layouts/base.njk
 permalink: /
 ---
 
-Hello welcome to Kalariyogi
+<div class="jumbotron jumbotron-fluid" style="background-image: url("{{heroImage | url}}");">
+  <div class="container">
+    <h1 class="hero-text display-4">{{heroText}}</h1>
+    <p class="lead">{{heroDescription}}</p>
+  </div>
+</div>
+<div class="container">
+  {{ content | safe }}
+</div>

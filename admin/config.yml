@@ -18,3 +18,14 @@ collections:
       - { label: "Date", name: "date", widget: "date", default: "" }
       - { label: "Post Body", name: "body", widget: "markdown" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
+  - name: "pages"
+    label : "Pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "_site/index.html"
+        fields:
+          - { label: "Hero Text", name: "heroText", widget: "string" }
+          - { label: "Hero Description", name: "heroDescription", widget: "string" }
+          - { label: "Hero Image", name: "heroImage", widget: "image" }
+          - { label: "Hero body", name: "body", widget: "markdown" }
